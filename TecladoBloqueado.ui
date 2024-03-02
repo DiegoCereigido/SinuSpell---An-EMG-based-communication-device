@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>998</width>
+    <height>499</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>500</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{background-color: rgb(185, 158, 255);}</string>
+   </property>
+   <widget class="QLabel" name="texto">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>921</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Verdana&quot;;
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="palabra1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>120</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(50, 200, 50, 150);
+color: rgb(255, 255, 255);
+font: 12pt &quot;Verdana&quot;;
+border-radius: 3px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="palabra2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>120</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(50, 200, 50, 150);
+color: rgb(255, 255, 255);
+font: 12pt &quot;Verdana&quot;;
+border-radius: 3px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="palabra3">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>120</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(50, 200, 50, 150);
+color: rgb(255, 255, 255);
+font: 12pt &quot;Verdana&quot;;
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="palabra4">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>120</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(50, 200, 50, 150);
+color: rgb(255, 255, 255);
+font: 12pt &quot;Verdana&quot;;
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="palabra5">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>120</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(50, 200, 50, 150);
+color: rgb(255, 255, 255);
+font: 12pt &quot;Verdana&quot;;
+border-radius: 3px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="c1">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>190</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Verdana&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(255, 40, 40);
+border-color: rgb(170, 0, 0);
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string>E</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="c2">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>190</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Verdana&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(255, 40, 40);
+border-color: rgb(170, 0, 0);
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="c6">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>250</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Verdana&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(255, 40, 40);
+border-color: rgb(170, 0, 0);
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string>N</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="c5">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>250</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Verdana&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(255, 40, 40);
+border-color: rgb(170, 0, 0);
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string>S</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="c10">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>310</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Verdana&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(255, 40, 40);
+border-color: rgb(170, 0, 0);
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string>D</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="c9">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>310</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Verdana&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(255, 40, 40);
+border-color: rgb(170, 0, 0);
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string>I</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="c13">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>370</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 8pt &quot;Verdana&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(255, 40, 40);
+border-color: rgb(170, 0, 0);
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string>Actua-
+lizar</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="c14">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>370</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 7pt &quot;Verdana&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(255, 40, 40);
+border-color: rgb(170, 0, 0);
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string>Espacio</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="c15">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>370</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 8pt &quot;Verdana&quot;;
+border-color: rgb(0, 0, 127);
+color: rgb(255, 255, 255);
+background-color: rgb(60, 60, 255);
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string>Borrar</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="c16">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>370</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 8pt &quot;Verdana&quot;;
+border-color: rgb(0, 0, 127);
+color: rgb(255, 255, 255);
+background-color: rgb(60, 60, 255);
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string>Inicio</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="c11">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>310</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Verdana&quot;;
+border-color: rgb(0, 0, 127);
+color: rgb(255, 255, 255);
+background-color: rgb(60, 60, 255);
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string>L</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="c12">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>310</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 8pt &quot;Verdana&quot;;
+border-color: rgb(0, 0, 127);
+color: rgb(255, 255, 255);
+background-color: rgb(60, 60, 255);
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string>Frases</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="c7">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>250</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Verdana&quot;;
+border-color: rgb(0, 0, 127);
+color: rgb(255, 255, 255);
+background-color: rgb(60, 60, 255);
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string>R</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="c8">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>250</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 7pt &quot;Verdana&quot;;
+border-color: rgb(0, 0, 127);
+color: rgb(255, 255, 255);
+background-color: rgb(60, 60, 255);
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string>Palabras</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="c3">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>190</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Verdana&quot;;
+border-color: rgb(0, 0, 127);
+color: rgb(255, 255, 255);
+background-color: rgb(60, 60, 255);
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string>O</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="c4">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>190</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Verdana&quot;;
+border-color: rgb(0, 0, 127);
+color: rgb(255, 255, 255);
+background-color: rgb(60, 60, 255);
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string>Voz</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>410</y>
+      <width>221</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>TP2 sin boton guiño/logo_sinusense.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botonguino">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>350</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Guino</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>-1</y>
+      <width>1001</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(50,50,50,200)</string>
+    </property>
+   </widget>
+   <zorder>palabra2</zorder>
+   <zorder>palabra5</zorder>
+   <zorder>palabra4</zorder>
+   <zorder>palabra1</zorder>
+   <zorder>palabra3</zorder>
+   <zorder>c1</zorder>
+   <zorder>c2</zorder>
+   <zorder>c6</zorder>
+   <zorder>c5</zorder>
+   <zorder>c10</zorder>
+   <zorder>c9</zorder>
+   <zorder>c13</zorder>
+   <zorder>c14</zorder>
+   <zorder>c15</zorder>
+   <zorder>c16</zorder>
+   <zorder>c11</zorder>
+   <zorder>c12</zorder>
+   <zorder>c7</zorder>
+   <zorder>c8</zorder>
+   <zorder>c3</zorder>
+   <zorder>c4</zorder>
+   <zorder>label_3</zorder>
+   <zorder>widget_2</zorder>
+   <zorder>texto</zorder>
+   <zorder>botonguino</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
